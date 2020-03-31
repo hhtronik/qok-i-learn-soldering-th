@@ -30,7 +30,7 @@ What equipement do I need?
 
 - A soldering iron
 - Some solder
-- A side-cutter / cutting pliers
+- A side-cutter / snips
 - Patience if this is your first time soldering
 
 As always, work safety is important, so don't burn yourself and don't inhale the fumes released while soldering. Working in a well ventilated area is good. We'd definitely recommend adding some ventilation (for example a fan of some sort blowing the fumes away from you or a proper soldering fume extractor if you plan on doing this over and over again :)
@@ -57,6 +57,7 @@ Assembly mini guide
 8. Insert and solder the switch (the switch has an orientation too, it can be inserted easily in one direction without twisting the lead wires)
 9. Insert and solder the battery holder (the outline of the battery holder should match the silkscreen printing)
 10. Check all joints (and measure everything if you know how to do that)
+11. Use the side-cutter to remove the excess wire (maybe do that once you've tested everything _/\O/\_ )
 11. Insert a battery (the positive pole/+ should face up, away from the PCB) and press the button
 
 **...if the LED lights up, well, congratulations you've completed the kit!**
@@ -75,10 +76,10 @@ First of all, this is not a bad thing! The real fun actually just begun. Here ar
 
 | Pads / Test points | Multimeter mode       | Expected result            | Repairing it               |
 | ------------------ | --------------------- | -------------------------- | -------------------------- |
-| `1` (or battery holder metal shell) to `3` | `Continuity` or `resistance` (low range)  | Continuity or < 5 Ohms in resistance test | check the solder joints on the battery holder and switch |
+| `1` to `3` | `Continuity` or `resistance`  | Continuity or < 5 Ohms in resistance test | check the solder joints on the battery holder and switch |
 | `1` to `5` | `continuity` or `resistance`  | Continuity (or < 5 Ohms in resistance test) when you press the button | Check the solder joints on the switch |
 | `1` to `5` | `continuity` or `resistance`  | No continuity (or O.L. / inifinite resistance) when the button is not pressed | Check for solder bridges arround on the switch |
-| `4` to `7` | `diode test`                  | With the positive terminal on `4` and COM/Negative on `7` the LED is expected to turn on. If swapping connections makes the LED light... | ...unsolder the LED and rotate it 180°, it was reversed. |
+| `4` to `7` | `diode test`                  | With the positive terminal on `4` and COM/Negative on `7` the LED is expected to turn on. If swapping connections makes the LED light... | ...de- then re-solder the LED after flipping polarity. |
 | `6` to `8` | `resistance`                  | The meter should read approx. 50 Ohm | Verify the solder joints. 
 
 
