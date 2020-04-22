@@ -47,6 +47,8 @@ Assembly mini guide
 
 > It's technically possible to solder the circuit "upside-down", hence why we added a small `components on this side` indication to the silkscreen! 
 
+If you have never soldered anything before, have a look at our detailled instructions instead: [soldering instructions](./soldering-instructions.md)
+
 1. Clean the PCB with some rubbing alcool and the cloth *(optional but recommended)*
 2. Populate the resistor (this means bending the pins, and sticking them through the pads close to the label "resistor", you can use the slots in the PCB as spacer to bend the lead wires at the right place :)
 3. Solder one pad (hold the tip of the soldering iron against the PCB pad **and** the lead wire for 2-3 seconds, add a bit of solder then retract solder first, finally retract iron, you'll get used to that routine fast!)
