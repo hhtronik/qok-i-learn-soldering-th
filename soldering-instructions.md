@@ -30,7 +30,7 @@ Power up your soldering iron (if it's regulated set the temperature to anywhere 
 
 ![Soldering kit parts](./assets/soldering-guide-ils-th.jpg)
 
-White the soldering iron is heating up, prepare your first part:
+While the soldering iron is heating up, prepare your first part:
 
 - remove the paper strips on the lead wires of the resistor (just pull :)
 - bend the wires of the resistor at a right angle so they fit through the pads on the PCB. 
